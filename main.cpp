@@ -81,6 +81,7 @@ void loop_Menu()
         while(SDL_PollEvent(&Event))
         {
             menu_Click = Mix_LoadWAV("select_Click.wav");
+
             if(Event.type == SDL_QUIT)
                 exit(0);
             if(Event.type == SDL_MOUSEMOTION)
@@ -89,16 +90,9 @@ void loop_Menu()
                 SDL_GetMouseState(&x ,&y);
                 cout<<x<<","<<y<<endl;
                 if(x>156 && x<353 && y>106 && y< 129)
-                {
-                    Mix_PlayChannel(-1, menu_Click, 0);
                     SDL_RenderCopy(renderer, menuNew, NULL, &rect_background);
-                }
-
                 else if(x>203 && x<277 && y>172 && y<199)
-                {
-                    Mix_PlayChannel(-1, menu_Click, 0);
                     SDL_RenderCopy(renderer, menuExit, NULL, &rect_background);
-                }
                 else
                     SDL_RenderCopy(renderer, menu, NULL, &rect_background);
             }
@@ -109,7 +103,9 @@ void loop_Menu()
                 SDL_GetMouseState(&click_x, &click_y);
                 cout<<click_x<<","<<click_y<<endl;
                 if(click_x>156 && click_x<353 && click_y>106 && click_y< 129)
+                {
                     loop_Game();
+                }
                 else if(click_x>203 && click_x<277 && click_y>172 && click_y<199)
                     exit(0);
             }
