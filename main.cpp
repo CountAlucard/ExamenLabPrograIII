@@ -174,7 +174,7 @@ void loop_Game()
                         }
                     }
                     break;
-                case SDLK_f:
+                case SDLK_z:
                     Mix_PlayChannel(-1, gMedium, 0);
                     break;
 
