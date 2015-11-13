@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1446322400 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Jugador.cpp
+	"Jugador.h"
+
+1446322944 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Jugador.h
+	"Personaje.h"
+
+1446830787 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<SDL2/SDL_mixer.h>
+	"Jugador.h"
+	"Enemigo.h"
+	"Humunculus.h"
+	"Skeleton.h"
+	"Devil.h"
+
+1446504756 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Enemigo.cpp
+	"Enemigo.h"
+
+1446504775 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Enemigo.h
+	"Personaje.h"
+	"Jugador.h"
+	<stdlib.h>
+
+1446322814 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Personaje.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<vector>
+	<map>
+
+1446322846 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Personaje.cpp
+	"Personaje.h"
+
+1446657965 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Humunculus.cpp
+	"Humunculus.h"
+
+1446504322 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Humunculus.h
+	"Enemigo.h"
+
+1446505752 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Skeleton.h
+	"Enemigo.h"
+
+1446658216 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Skeleton.cpp
+	"Skeleton.h"
+
+1446658010 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Devil.cpp
+	"Devil.h"
+
+1446507341 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea3/Devil.h
+	"Enemigo.h"
+

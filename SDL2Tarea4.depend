@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1447113592 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Devil.cpp
+	"Devil.h"
+
+1447113515 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Devil.h
+	"Enemigo.h"
+
+1447113616 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Enemigo.h
+	"Personaje.h"
+	"Jugador.h"
+	<stdlib.h>
+	<list>
+
+1447113411 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Personaje.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<vector>
+	<map>
+	"Entidad.h"
+
+1447292764 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Jugador.h
+	<list>
+	<fstream>
+	"Personaje.h"
+	"Proyectil.h"
+
+1446504756 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Enemigo.cpp
+	"Enemigo.h"
+
+1447113798 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Humunculus.cpp
+	"Humunculus.h"
+
+1447113789 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Humunculus.h
+	"Enemigo.h"
+
+1447292764 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Jugador.cpp
+	"Jugador.h"
+
+1447371599 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/main.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<fstream>
+	<string>
+	<SDL2/SDL_mixer.h>
+	"Jugador.h"
+	"Enemigo.h"
+	"Proyectil.h"
+	"Humunculus.h"
+	"Skeleton.h"
+	"Devil.h"
+
+1447113215 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Skeleton.h
+	"Enemigo.h"
+
+1447113439 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Personaje.cpp
+	"Personaje.h"
+
+1447113317 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Skeleton.cpp
+	"Skeleton.h"
+
+1447112419 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Entidad.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<iostream>
+	<list>
+
+1447112647 /home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Proyectil.h
+	<list>
+	"Entidad.h"
+	"Enemigo.h"
+
+1447112438 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Entidad.cpp
+	"Entidad.h"
+
+1447112582 source:/home/carlos/Documents/CodeBlocks_Projects/Tareas_LabPrograIII/SDLTarea4/Proyectil.cpp
+	"Proyectil.h"
+
